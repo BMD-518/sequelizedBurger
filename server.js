@@ -5,7 +5,8 @@ var PORT = process.env.PORT || 8080;
 var app = express();
 
 // Display static page content
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
+
 
 // Parse as JSON
 app.use(express.urlencoded({ extended: true }));
