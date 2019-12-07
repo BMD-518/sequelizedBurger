@@ -1,9 +1,16 @@
-<li>
+<li class="collection-item #ffab40 orange accent-2" >
     {{burger_name}} 
 
-    <button class="change-devoured" data-id="{{id}}" data-newdevour="{{devoured}}">
+    <div class="divider"></div>
+    
+    <br>
+
+    <button class="change-devoured btn-small waves-light waves-effect" data-id="{{id}}" data-newdevour="{{devoured}}">
         {{#if devoured}}EAT IT!{{else}}Regurgitate{{/if}}
     </button>
 
-    <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+    <button class="delete-burger btn-small waves-light waves-effect" data-id="{{this.id}}">DELETE!</button>
+
+    
+
 </li>
