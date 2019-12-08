@@ -8,8 +8,9 @@
 {{!-- block conatainer start --}}
 <div class="row">
     <div class="col s6">
-        <h2 class="header">Burgers just BEGGING to be devoured!</h2>
-        <ul class="collection">
+        <ul class="collection with-header hoverable">
+            <li class="collection-header #ff9100 orange accent-3"><h2>These are good to go!</h2></li>
+        {{!-- <h2 class="header">Burgers just BEGGING to be devoured!</h2> --}}
             {{#each burgers}}
                 {{#unless devoured}}
                     {{> burgers/burger-block devoured=true}}
@@ -18,8 +19,9 @@
         </ul>
     </div>
     <div class="col s6">
-        <h2>Burgers that have already been devoured..</h2>
-        <ul class="collection">
+        <ul class="collection with-header hoverable #ff9100 orange accent-3">
+            <li class="collection-header #ff9100 orange accent-3"><h2>The choice is yours...</h2></li>
+        {{!-- <h2>Burgers that have already been devoured..</h2> --}}
             {{#each burgers}} 
                 {{#if devoured}}
                     {{> burgers/burger-block devoured=false}}
