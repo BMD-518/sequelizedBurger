@@ -4,6 +4,8 @@
     </div>
   </nav>
 
+<br>
+  
 <div class="container">
 {{!-- block conatainer start --}}
 <div class="row">
@@ -34,11 +36,32 @@
 
     <div class="divider"></div>
 
-{{!-- new burger form --}}
+
+{{!-- burger form card --}}
 
 <div class="row">
+    <div class="col s6 offset-s3">
+      <div class="card #ffd180 orange accent-1 center hoverable">
+        <div class="card-content white-text">
+          <span class="card-title"> <u> Name Your Burger! </u> </span>
+          <p>Burgers come in all shapes and sizes.. What kind of burger would you like?</p>
+        </div>
+        <div class="card-action form-group">
+            <div class="input-field">
+                <input placeholder="Name of Burger..." id="ca" type="text" class="validate" name="burger_name">
+                <label for="ca">Burger Name:</label>
+            </div>
+            <button class="btn-large waves-effect waves-light" type="submit"> Add that Burger!!!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{{!-- card form end --}}
+
+{{!-- <div class="row">
     <form class="create-form col12">
-        <h2 class="center">Name your burger!</h2>
+        <h2 class="center" id="form-title">Name your burger!</h2>
 
         <div class="row form-group">
             <div class="input-field col s6 offset-s3 center">
@@ -51,5 +74,5 @@
         <button class="btn-large waves-effect waves-light" type="submit"> Add that Burger!!!</button>
     </div>
 </div>
-</div>
-{{!--  --}}
+</div> --}}
+

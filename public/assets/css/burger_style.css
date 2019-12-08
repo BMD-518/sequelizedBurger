@@ -1,3 +1,7 @@
-body {
-    background-image: url(https://images.pexels.com/photos/1105325/bbq-meet-eating-diner-1105325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+h2 {
+    color: #e65100;
+}
+
+#form-title {
+    color: black;
 }
