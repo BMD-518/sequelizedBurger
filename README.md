@@ -11,5 +11,5 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 The demo of Burger Time can be found [here](https://thawing-stream-79389.herokuapp.com/).
 
-![Stop! Burger Time](./public/assets/img/Screen Shot 2019-12-16 at 12.59.17 AM.png)
+![Stop! Burger Time](./public/assets/img/burgerScreenShot.png)
 
